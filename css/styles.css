@@ -6,13 +6,27 @@ h1{
   color: #ABE3CD;
   background: #629682;
   border-radius: 15px;
-  margin: 30px 0 10px 0;
+  margin: 0 0 10px 0;
   padding: 20px; 
   font-family: 'Arvo', serif;
   font-size: 2.8em;
   text-align: center;
   opacity: 0.75;
 }
+
+.nav, 
+.nav li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: #965F53;
+  font-family: 'Arvo', serif;
+}
+
 
 
 ul.image-set {
